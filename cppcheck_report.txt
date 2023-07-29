@@ -1,0 +1,1259 @@
+vedis.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 48 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+vedis.c:2860:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ zBuf += 4;
+ ^
+vedis.c:8394:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  SXUNUSED(fullSync);
+  ^
+vedis.c:8395:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  SXUNUSED(dataOnly);
+  ^
+vedis.c:8537:3: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8582:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  SXUNUSED(isDelete);
+  ^
+vedis.c:8583:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  SXUNUSED(noLock);
+  ^
+vedis.c:8584:3: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+  SXUNUSED(pVfs);
+  ^
+vedis.c:8729:6: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+     SXUNUSED(zPath);
+     ^
+vedis.c:8875:3: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8913:3: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8925:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(pVfs);
+ ^
+vedis.c:8950:3: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8991:4: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+   SXUNUSED(pVfs);
+   ^
+vedis.c:10212:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  SXUNUSED(iPageSize); /* cc warning */
+  ^
+vedis.c:12215:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(pLex); /* Prevent compiler warning */
+ ^
+vedis.c:12914:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(pUnused);
+ ^
+vedis.c:14179:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ zRaw += 8;
+ ^
+vedis.c:16684:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  SXUNUSED(iPos);
+  ^
+vedis.c:19443:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:19444:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20221:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20222:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20247:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20248:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20304:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20305:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20316:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20317:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20345:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /* cc wanring */
+ ^
+vedis.c:20346:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20398:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /*cc warning */
+ ^
+vedis.c:20399:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20415:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /*cc warning */
+ ^
+vedis.c:20416:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20432:2: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+ SXUNUSED(nArg); /*cc warning */
+ ^
+vedis.c:20433:2: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20597:3: style: Assignment of function parameter has no effect outside the function. [uselessAssignmentArg]
+  SXUNUSED(iSize); /* cc warning */
+  ^
+vedis.c:4743:32: style:inconclusive: Boolean expression 'pPager->iPageSize<-1' is used in bitwise operation. Did you mean '&&'? [bitwiseOnBoolean]
+     || ((pPager->iPageSize<-1)&pPager->iPageSize)!=0    || ((pPager->iSectorSize-1)&pPager->iSectorSize)!=0
+                               ^
+vedis.c:10795:14: warning: The address of local variable 'fileId' might be accessed at non-zero index. [objectIndex]
+ zEnd = &zSrc[nSize];
+             ^
+vedis.c:7711:10: note: Address of variable taken here.
+  SyZero(&fileId,sizeof(fileId));
+         ^
+vedis.c:7711:10: note: Calling function 'SyZero', 1st argument '&fileId' value is lifetime=fileId
+  SyZero(&fileId,sizeof(fileId));
+         ^
+vedis.c:10795:14: note: The address of local variable 'fileId' might be accessed at non-zero index.
+ zEnd = &zSrc[nSize];
+             ^
+vedis.c:10795:14: warning: The address of local variable 'sKey' might be accessed at non-zero index. [objectIndex]
+ zEnd = &zSrc[nSize];
+             ^
+vedis.c:2572:40: note: Address of variable taken here.
+ vedisMemObjInitFromInt(pTable->pStore,&sKey,(sxi64)nIndex);
+                                       ^
+vedis.c:2572:40: note: Calling function 'vedisMemObjInitFromInt', 2nd argument '&sKey' value is lifetime=sKey
+ vedisMemObjInitFromInt(pTable->pStore,&sKey,(sxi64)nIndex);
+                                       ^
+vedis.c:9646:9: note: Calling function 'SyZero', 1st argument 'pObj' value is lifetime=sKey
+ SyZero(pObj, sizeof(vedis_value));
+        ^
+vedis.c:10795:14: note: The address of local variable 'sKey' might be accessed at non-zero index.
+ zEnd = &zSrc[nSize];
+             ^
+vedis.c:10795:14: warning: The address of local variable 'sKey' might be accessed at non-zero index. [objectIndex]
+ zEnd = &zSrc[nSize];
+             ^
+vedis.c:2902:43: note: Address of variable taken here.
+ vedisMemObjInitFromString(pTable->pStore,&sKey,&sEntry);
+                                          ^
+vedis.c:2902:43: note: Calling function 'vedisMemObjInitFromString', 2nd argument '&sKey' value is lifetime=sKey
+ vedisMemObjInitFromString(pTable->pStore,&sKey,&sEntry);
+                                          ^
+vedis.c:9660:9: note: Calling function 'SyZero', 1st argument 'pObj' value is lifetime=sKey
+ SyZero(pObj, sizeof(vedis_value));
+        ^
+vedis.c:10795:14: note: The address of local variable 'sKey' might be accessed at non-zero index.
+ zEnd = &zSrc[nSize];
+             ^
+vedis.c:12998:29: warning: The address of local variable 'iNum' might be accessed at non-zero index. [objectIndex]
+ unsigned char *zEnd = &zBuf[nLen];
+                            ^
+vedis.c:6028:38: note: Address of variable taken here.
+ SyRandomness(&pPager->sPrng,(void *)&iNum,sizeof(iNum));
+                                     ^
+vedis.c:6028:30: note: Calling function 'SyRandomness', 2nd argument '(void*)&iNum' value is lifetime=iNum
+ SyRandomness(&pPager->sPrng,(void *)&iNum,sizeof(iNum));
+                             ^
+vedis.c:12998:29: note: The address of local variable 'iNum' might be accessed at non-zero index.
+ unsigned char *zEnd = &zBuf[nLen];
+                            ^
+vedis.c:3101:69: style: Redundant condition: If 'EXPR == ';'', the comparison 'EXPR < 0xc0' is always true. [redundantCondition]
+  while( pStream->zText < pStream->zEnd && pStream->zText[0] < 0xc0 && pStream->zText[0] == ';' ){
+                                                                    ^
+vedis.c:12379:24: style: Condition 'errorflag>0' is always true [knownConditionTrueFalse]
+      return errorflag > 0 ? SXERR_FORMAT : SXRET_OK;
+                       ^
+vedis.c:12374:19: note: Assignment 'errorflag=1', assigned value is 1
+      errorflag = 1;
+                  ^
+vedis.c:12376:11: note: Assuming condition is false
+   if( rc != SXRET_OK ){
+          ^
+vedis.c:12379:24: note: Condition 'errorflag>0' is always true
+      return errorflag > 0 ? SXERR_FORMAT : SXRET_OK;
+                       ^
+vedis.c:12499:18: style: Condition 'longvalue<0' is always false [knownConditionTrueFalse]
+   if( longvalue < 0 ){
+                 ^
+vedis.c:12496:24: note: Assuming that condition 'longvalue<0' is not redundant
+          if( longvalue<0 ){
+                       ^
+vedis.c:12497:25: note: Assignment 'longvalue=-longvalue', assigned value is 0
+            longvalue = -longvalue;
+                        ^
+vedis.c:12499:18: note: Condition 'longvalue<0' is always false
+   if( longvalue < 0 ){
+                 ^
+vedis.c:12511:19: style: Condition 'longvalue<0' is always false [knownConditionTrueFalse]
+    if( longvalue < 0 ){
+                  ^
+vedis.c:12508:17: note: Assuming that condition 'longvalue<0' is not redundant
+   if( longvalue<0 ){
+                ^
+vedis.c:12509:17: note: Assignment 'longvalue=-longvalue', assigned value is 0
+    longvalue = -longvalue;
+                ^
+vedis.c:12511:19: note: Condition 'longvalue<0' is always false
+    if( longvalue < 0 ){
+                  ^
+vedis.c:2522:58: warning: Possible null pointer dereference: pVal [nullPointer]
+  rc = vedisTableInsertIntKey(&(*pMap),pMap->iNextIdx,&(*pVal));
+                                                         ^
+vedis.c:18795:44: note: Calling function 'vedisTableInsertRecord', 3rd argument '0' value is 0
+  rc = vedisTableInsertRecord(pSet,argv[i],0/* No data */);
+                                           ^
+vedis.c:2600:36: note: Calling function 'vedisTableInsert', 3rd argument 'pData' value is 0
+ rc = vedisTableInsert(pTable,pKey,pData);
+                                   ^
+vedis.c:2448:11: note: Assuming condition is Assuming condition is false
+ if( pKey && (pKey->iFlags & (MEMOBJ_STRING|MEMOBJ_HASHMAP)) ){
+          ^
+vedis.c:2522:58: note: Null pointer dereference
+  rc = vedisTableInsertIntKey(&(*pMap),pMap->iNextIdx,&(*pVal));
+                                                         ^
+vedis.c:17586:34: warning: Possible null pointer dereference: pKey [nullPointer]
+ rc = HashmapInsert(&(*pMap), &(*pKey), &(*pVal));
+                                 ^
+vedis.c:22169:61: note: Calling function 'vedisHashmapInsert', 2nd argument '0' value is 0
+ rc = vedisHashmapInsert((vedis_hashmap *)pArray->x.pOther, 0 /* Assign an automatic index */, &(*pValue));
+                                                            ^
+vedis.c:17586:34: note: Null pointer dereference
+ rc = HashmapInsert(&(*pMap), &(*pKey), &(*pVal));
+                                 ^
+vedis.c:3882:26: style: Variable 'pEntry->pNextCollide' is reassigned a value before the old one has been used. [redundantAssignment]
+    pEntry->pNextCollide = apNew[iBucket];
+                         ^
+vedis.c:3879:26: note: pEntry->pNextCollide is assigned
+    pEntry->pNextCollide = pEntry->pPrevCollide = 0;
+                         ^
+vedis.c:3882:26: note: pEntry->pNextCollide is overwritten
+    pEntry->pNextCollide = apNew[iBucket];
+                         ^
+vedis.c:7857:10: style: Redundant initialization for 'pInode'. The initialized value is overwritten before it is read. [redundantInitialization]
+  pInode = pFile->pInode;
+         ^
+vedis.c:7842:25: note: pInode is initialized
+  unixInodeInfo *pInode = pFile->pInode;
+                        ^
+vedis.c:7857:10: note: pInode is overwritten
+  pInode = pFile->pInode;
+         ^
+vedis.c:9936:21: style: Variable 'pEntry->pNextHash' is reassigned a value before the old one has been used. [redundantAssignment]
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:9933:21: note: pEntry->pNextHash is assigned
+  pEntry->pNextHash = pEntry->pPrevHash = 0;
+                    ^
+vedis.c:9936:21: note: pEntry->pNextHash is overwritten
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:9952:21: style: Variable 'pEntry->pNextHash' is reassigned a value before the old one has been used. [redundantAssignment]
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:9949:21: note: pEntry->pNextHash is assigned
+  pEntry->pNextHash = pEntry->pPrevHash = 0;
+                    ^
+vedis.c:9952:21: note: pEntry->pNextHash is overwritten
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:9968:21: style: Variable 'pEntry->pNextHash' is reassigned a value before the old one has been used. [redundantAssignment]
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:9965:21: note: pEntry->pNextHash is assigned
+  pEntry->pNextHash = pEntry->pPrevHash = 0;
+                    ^
+vedis.c:9968:21: note: pEntry->pNextHash is overwritten
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:9984:21: style: Variable 'pEntry->pNextHash' is reassigned a value before the old one has been used. [redundantAssignment]
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:9981:21: note: pEntry->pNextHash is assigned
+  pEntry->pNextHash = pEntry->pPrevHash = 0;
+                    ^
+vedis.c:9984:21: note: pEntry->pNextHash is overwritten
+  pEntry->pNextHash = apNew[iBucket];
+                    ^
+vedis.c:13889:22: style: Variable 'pEntry->pNextCol' is reassigned a value before the old one has been used. [redundantAssignment]
+    pEntry->pNextCol = apNew[iBucket];
+                     ^
+vedis.c:13886:22: note: pEntry->pNextCol is assigned
+    pEntry->pNextCol = pEntry->pPrevCol = 0;
+                     ^
+vedis.c:13889:22: note: pEntry->pNextCol is overwritten
+    pEntry->pNextCol = apNew[iBucket];
+                     ^
+vedis.c:14042:22: style: Variable 'pEntry->pNextCol' is reassigned a value before the old one has been used. [redundantAssignment]
+    pEntry->pNextCol = apNew[iBucket];
+                     ^
+vedis.c:14039:22: note: pEntry->pNextCol is assigned
+    pEntry->pNextCol = pEntry->pPrevCol = 0;
+                     ^
+vedis.c:14042:22: note: pEntry->pNextCol is overwritten
+    pEntry->pNextCol = apNew[iBucket];
+                     ^
+vedis.c:21614:22: style: Variable 'pEntry->pNextCol' is reassigned a value before the old one has been used. [redundantAssignment]
+    pEntry->pNextCol = apNew[nBucket];
+                     ^
+vedis.c:21611:22: note: pEntry->pNextCol is assigned
+    pEntry->pNextCol = pEntry->pPrevCol = 0;
+                     ^
+vedis.c:21614:22: note: pEntry->pNextCol is overwritten
+    pEntry->pNextCol = apNew[nBucket];
+                     ^
+vedis.c:21777:5: style: Variable 'rc' is reassigned a value before the old one has been used. [redundantAssignment]
+ rc = vedisEngineRelease(pStore);
+    ^
+vedis.c:21775:5: note: rc is assigned
+ rc = vedisDeleteBuiltinCommands(pStore);
+    ^
+vedis.c:21777:5: note: rc is overwritten
+ rc = vedisEngineRelease(pStore);
+    ^
+vedis.c:2202:9: style: The scope of the variable 'nBucket' can be reduced. [variableScope]
+  sxu32 nBucket;
+        ^
+vedis.c:2666:9: style: The scope of the variable 'n' can be reduced. [variableScope]
+  sxu32 n;
+        ^
+vedis.c:2669:10: style: The scope of the variable 'iBucket' can be reduced. [variableScope]
+   sxu32 iBucket;
+         ^
+vedis.c:2819:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:3283:8: style: The scope of the variable 'n' can be reduced. [variableScope]
+ sxu32 n;
+       ^
+vedis.c:3865:9: style: The scope of the variable 'n' can be reduced. [variableScope]
+  sxu32 n;
+        ^
+vedis.c:3868:10: style: The scope of the variable 'iBucket' can be reduced. [variableScope]
+   sxu32 iBucket;
+         ^
+vedis.c:4765:16: style: The scope of the variable 'zRaw' can be reduced. [variableScope]
+ unsigned char zRaw[VEDIS_MIN_PAGE_SIZE]; /* Minimum page size */
+               ^
+vedis.c:5098:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:5417:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:5502:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc = VEDIS_OK;
+     ^
+vedis.c:9915:10: style: The scope of the variable 'iBucket' can be reduced. [variableScope]
+ sxu32 n,iBucket;
+         ^
+vedis.c:12538:22: style: The scope of the variable 'x' can be reduced. [variableScope]
+          char *pre, x;
+                     ^
+vedis.c:12947:7: style: The scope of the variable 't' can be reduced. [variableScope]
+ sxu8 t;
+      ^
+vedis.c:13872:9: style: The scope of the variable 'n' can be reduced. [variableScope]
+  sxu32 n;
+        ^
+vedis.c:13915:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:14025:9: style: The scope of the variable 'n' can be reduced. [variableScope]
+  sxu32 n;
+        ^
+vedis.c:15091:9: style: The scope of the variable 'nDatalen' can be reduced. [variableScope]
+  sxu32 nDatalen;
+        ^
+vedis.c:15318:32: style: The scope of the variable 'zPayload' can be reduced. [variableScope]
+ unsigned char *zRaw,*zRawEnd,*zPayload;
+                               ^
+vedis.c:15322:8: style: The scope of the variable 'nAvail' can be reduced. [variableScope]
+ sxu32 nAvail;
+       ^
+vedis.c:16424:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:16463:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:17123:9: style: The scope of the variable 'nBucket' can be reduced. [variableScope]
+  sxu32 nBucket;
+        ^
+vedis.c:17686:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:17740:6: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int rc;
+     ^
+vedis.c:17908:8: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int i,rc;
+       ^
+vedis.c:18559:8: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int i,rc;
+       ^
+vedis.c:18778:8: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int i,rc;
+       ^
+vedis.c:18997:8: style: The scope of the variable 'rc' can be reduced. [variableScope]
+ int i,rc;
+       ^
+vedis.c:19561:7: style: The scope of the variable 'zResult' can be reduced. [variableScope]
+ char zResult[8];
+      ^
+vedis.c:19562:9: style: The scope of the variable 'j' can be reduced. [variableScope]
+ int i, j;
+        ^
+vedis.c:19782:14: style: The scope of the variable 'zPtr' can be reduced. [variableScope]
+ const char *zPtr;
+             ^
+vedis.c:19783:6: style: The scope of the variable 'isEnc' can be reduced. [variableScope]
+ int isEnc;
+     ^
+vedis.c:19809:10: style: The scope of the variable 'rc' can be reduced. [variableScope]
+   sxi32 rc;
+         ^
+vedis.c:19931:14: style: The scope of the variable 'zPtr' can be reduced. [variableScope]
+ const char *zPtr;
+             ^
+vedis.c:19997:23: style: The scope of the variable 'pEntry' can be reduced. [variableScope]
+   SyString *aEntry, *pEntry;
+                      ^
+vedis.c:19998:10: style: The scope of the variable 'rc' can be reduced. [variableScope]
+   sxi32 rc;
+         ^
+vedis.c:20024:14: style: The scope of the variable 'zPtr' can be reduced. [variableScope]
+ const char *zPtr, *zTag;
+             ^
+vedis.c:20689:9: style: The scope of the variable 'n' can be reduced. [variableScope]
+  sxu32 n;
+        ^
+vedis.c:20692:10: style: The scope of the variable 'iBucket' can be reduced. [variableScope]
+   sxu32 iBucket;
+         ^
+vedis.c:20862:30: style: The scope of the variable 'pEntry' can be reduced. [variableScope]
+ vedis_kv_methods **apStore,*pEntry;
+                             ^
+vedis.c:21597:9: style: The scope of the variable 'n' can be reduced. [variableScope]
+  sxu32 n;
+        ^
+vedis.c:9261:18: style: Checking if unsigned expression 'pVal->nByte' is less than zero. [unsignedLessThanZero]
+ if( pVal->nByte <= 0 ){
+                 ^
+vedis.c:9498:18: style: Checking if unsigned expression 'sStr.nByte' is less than zero. [unsignedLessThanZero]
+  if( sStr.nByte <= 0 ){
+                 ^
+vedis.c:10772:11: style: Checking if unsigned expression 'nLen' is less than zero. [unsignedLessThanZero]
+ if( nLen <= 0 ){
+          ^
+vedis.c:10806:12: style: Checking if unsigned expression 'nSize' is less than zero. [unsignedLessThanZero]
+ if( nSize <= 0 ){
+           ^
+vedis.c:11556:19: style: Checking if unsigned expression 'pSet->nSize' is less than zero. [unsignedLessThanZero]
+  if( pSet->nSize <= 0 ){
+                  ^
+vedis.c:11591:18: style: Checking if unsigned expression 'pSet->nUsed' is less than zero. [unsignedLessThanZero]
+ if( pSet->nUsed <= 0 ){
+                 ^
+vedis.c:11601:18: style: Checking if unsigned expression 'pSet->nUsed' is less than zero. [unsignedLessThanZero]
+ if( pSet->nUsed <= 0 ){
+                 ^
+vedis.c:2074:19: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+ pNode->pTable  = &(*pTable);
+                  ^
+vedis.c:2106:19: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+ pNode->pTable  = &(*pTable);
+                  ^
+vedis.c:2262:31: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+ pNode = vedisTableNewIntNode(&(*pTable), iKey, nHash, pValue);
+                              ^
+vedis.c:2267:28: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+ rc = vedisTableGrowBucket(&(*pTable));
+                           ^
+vedis.c:2270:27: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+  rc = vedisTableNodeLink(&(*pTable), pNode, nHash & (pTable->nSize - 1));
+                          ^
+vedis.c:2290:32: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+ pNode = vedisTableNewBlobNode(&(*pTable), pKey, nKeyLen, nHash,pValue);
+                               ^
+vedis.c:2295:28: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+ rc = vedisTableGrowBucket(&(*pTable));
+                           ^
+vedis.c:2298:27: style: Redundant pointer operation on 'pTable' - it's already a pointer. [redundantPointerOp]
+  rc = vedisTableNodeLink(&(*pTable), pNode, nHash & (pTable->nSize - 1));
+                          ^
+vedis.c:2407:24: style: Redundant pointer operation on 'pKey' - it's already a pointer. [redundantPointerOp]
+   vedisMemObjToString(&(*pKey));
+                       ^
+vedis.c:2411:33: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+   rc = vedisTableLookupBlobKey(&(*pMap), SyBlobData(&pKey->sBlob), SyBlobLength(&pKey->sBlob), &pNode);
+                                ^
+vedis.c:2421:30: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ rc = vedisTableLookupIntKey(&(*pMap), pKey->x.iVal, &pNode);
+                             ^
+vedis.c:2451:24: style: Redundant pointer operation on 'pKey' - it's already a pointer. [redundantPointerOp]
+   vedisMemObjToString(&(*pKey));
+                       ^
+vedis.c:2458:43: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  if( SXRET_OK == vedisTableLookupBlobKey(&(*pMap), SyBlobData(&pKey->sBlob),
+                                          ^
+vedis.c:2477:33: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+   rc = vedisTableInsertBlobKey(&(*pMap),SyBlobData(&pKey->sBlob),SyBlobLength(&pKey->sBlob),&(*pVal));
+                                ^
+vedis.c:2477:94: style: Redundant pointer operation on 'pVal' - it's already a pointer. [redundantPointerOp]
+   rc = vedisTableInsertBlobKey(&(*pMap),SyBlobData(&pKey->sBlob),SyBlobLength(&pKey->sBlob),&(*pVal));
+                                                                                             ^
+vedis.c:2490:42: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  if( SXRET_OK == vedisTableLookupIntKey(&(*pMap), pKey->x.iVal, &pNode) ){
+                                         ^
+vedis.c:2509:31: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  rc = vedisTableInsertIntKey(&(*pMap), pKey->x.iVal, &(*pVal));
+                              ^
+vedis.c:2509:55: style: Redundant pointer operation on 'pVal' - it's already a pointer. [redundantPointerOp]
+  rc = vedisTableInsertIntKey(&(*pMap), pKey->x.iVal, &(*pVal));
+                                                      ^
+vedis.c:2515:47: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+    while( SXRET_OK == vedisTableLookupIntKey(&(*pMap), pMap->iNextIdx, 0) ){
+                                              ^
+vedis.c:2522:31: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  rc = vedisTableInsertIntKey(&(*pMap),pMap->iNextIdx,&(*pVal));
+                              ^
+vedis.c:2522:55: style: Redundant pointer operation on 'pVal' - it's already a pointer. [redundantPointerOp]
+  rc = vedisTableInsertIntKey(&(*pMap),pMap->iNextIdx,&(*pVal));
+                                                      ^
+vedis.c:3241:26: style: Redundant pointer operation on 'pOut' - it's already a pointer. [redundantPointerOp]
+ rc = SyLexInit(&sLexer, &(*pOut),vedisTokenizeInput,0);
+                         ^
+vedis.c:9311:26: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+  return MemObjRealToInt(&(*pObj));
+                         ^
+vedis.c:9315:28: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+  return MemObjStringToInt(&(*pObj));
+                           ^
+vedis.c:9386:16: style: Redundant pointer operation on 'pOut' - it's already a pointer. [redundantPointerOp]
+  SyBlobFormat(&(*pOut), "%.15g", pObj->x.rVal);
+               ^
+vedis.c:9388:16: style: Redundant pointer operation on 'pOut' - it's already a pointer. [redundantPointerOp]
+  SyBlobFormat(&(*pOut), "%qd", pObj->x.iVal);
+               ^
+vedis.c:9392:17: style: Redundant pointer operation on 'pOut' - it's already a pointer. [redundantPointerOp]
+   SyBlobAppend(&(*pOut),"true", sizeof("true")-1);
+                ^
+vedis.c:9394:17: style: Redundant pointer operation on 'pOut' - it's already a pointer. [redundantPointerOp]
+   SyBlobAppend(&(*pOut),"false", sizeof("false")-1);
+                ^
+vedis.c:9464:31: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+ sxi64 iVal = MemObjRealToInt(&(*pObj));
+                              ^
+vedis.c:9516:33: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+  pObj->x.iVal = MemObjIntValue(&(*pObj));
+                                ^
+vedis.c:9531:19: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+  MemObjTryIntger(&(*pObj));
+                  ^
+vedis.c:9543:34: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+  pObj->x.rVal = MemObjRealValue(&(*pObj));
+                                 ^
+vedis.c:9557:37: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+  pObj->x.iVal = MemObjBooleanValue(&(*pObj));
+                                    ^
+vedis.c:9573:40: style: Redundant pointer operation on 'pObj' - it's already a pointer. [redundantPointerOp]
+  rc = MemObjStringValue(&pObj->sBlob, &(*pObj));
+                                       ^
+vedis.c:9616:25: style: Redundant pointer operation on 'pSrc' - it's already a pointer. [redundantPointerOp]
+ SyMemcpy((const void *)&(*pSrc), &(*pDest), sizeof(vedis_value)-sizeof(SyBlob));
+                        ^
+vedis.c:9616:35: style: Redundant pointer operation on 'pDest' - it's already a pointer. [redundantPointerOp]
+ SyMemcpy((const void *)&(*pSrc), &(*pDest), sizeof(vedis_value)-sizeof(SyBlob));
+                                  ^
+vedis.c:10913:27: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ pChunk = MemBackendAlloc(&(*pBackend), nByte);
+                          ^
+vedis.c:10925:26: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+  return MemBackendAlloc(&(*pBackend), nByte);
+                         ^
+vedis.c:10973:29: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ pChunk = MemBackendRealloc(&(*pBackend), pOld, nByte);
+                            ^
+vedis.c:11015:22: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ rc = MemBackendFree(&(*pBackend), pChunk);
+                     ^
+vedis.c:11069:36: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ zBucket = (char *)MemBackendAlloc(&(*pBackend), SXMEM_POOL_MAXALLOC);
+                                   ^
+vedis.c:11098:44: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+  pBucket = (SyMemHeader *)MemBackendAlloc(&(*pBackend), nByte+sizeof(SyMemHeader));
+                                           ^
+vedis.c:11116:27: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+  rc = MemPoolBucketAlloc(&(*pBackend), nBucket);
+                          ^
+vedis.c:11140:31: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ pChunk = MemBackendPoolAlloc(&(*pBackend), nByte);
+                              ^
+vedis.c:11159:18: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+  MemBackendFree(&(*pBackend), pHeader);
+                 ^
+vedis.c:11178:26: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ rc = MemBackendPoolFree(&(*pBackend), pChunk);
+                         ^
+vedis.c:11249:9: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ SyZero(&(*pBackend), sizeof(SyMemBackend));
+        ^
+vedis.c:11277:9: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ SyZero(&(*pBackend), sizeof(SyMemBackend));
+        ^
+vedis.c:11302:9: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ SyZero(&(*pBackend), sizeof(SyMemBackend));
+        ^
+vedis.c:11380:25: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ rc = MemBackendRelease(&(*pBackend));
+                        ^
+vedis.c:11395:27: style: Redundant pointer operation on 'pBackend' - it's already a pointer. [redundantPointerOp]
+ pNew = SyMemBackendAlloc(&(*pBackend), nSize);
+                          ^
+vedis.c:11424:22: style: Redundant pointer operation on 'pAllocator' - it's already a pointer. [redundantPointerOp]
+ pBlob->pAllocator = &(*pAllocator);
+                     ^
+vedis.c:11484:23: style: Redundant pointer operation on 'pBlob' - it's already a pointer. [redundantPointerOp]
+ rc = BlobPrepareGrow(&(*pBlob), &nSize);
+                      ^
+vedis.c:11501:20: style: Redundant pointer operation on 'pBlob' - it's already a pointer. [redundantPointerOp]
+ rc = SyBlobAppend(&(*pBlob), (const void *)"\0", sizeof(char));
+                   ^
+vedis.c:11511:21: style: Redundant pointer operation on 'pDest' - it's already a pointer. [redundantPointerOp]
+  rc = SyBlobAppend(&(*pDest), pSrc->pBlob, pSrc->nByte);
+                    ^
+vedis.c:12845:31: style: Redundant pointer operation on 'pBlob' - it's already a pointer. [redundantPointerOp]
+ FormatMount(SXFMT_CONS_BLOB, &(*pBlob), 0, 0, &n, zFormat, ap);
+                              ^
+vedis.c:12857:31: style: Redundant pointer operation on 'pBlob' - it's already a pointer. [redundantPointerOp]
+ FormatMount(SXFMT_CONS_BLOB, &(*pBlob), 0, 0, &n, zFormat, ap);
+                              ^
+vedis.c:17053:17: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ pNode->pMap  = &(*pMap);
+                ^
+vedis.c:17080:17: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ pNode->pMap  = &(*pMap);
+                ^
+vedis.c:17184:28: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ pNode = HashmapNewIntNode(&(*pMap), iKey, nHash, pValue);
+                           ^
+vedis.c:17189:25: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapGrowBucket(&(*pMap));
+                        ^
+vedis.c:17195:18: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ HashmapNodeLink(&(*pMap), pNode, nHash & (pMap->nSize - 1));
+                 ^
+vedis.c:17212:29: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ pNode = HashmapNewBlobNode(&(*pMap), pKey, nKeyLen, nHash,pValue);
+                            ^
+vedis.c:17217:25: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapGrowBucket(&(*pMap));
+                        ^
+vedis.c:17223:18: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ HashmapNodeLink(&(*pMap), pNode, nHash & (pMap->nSize - 1));
+                 ^
+vedis.c:17327:24: style: Redundant pointer operation on 'pKey' - it's already a pointer. [redundantPointerOp]
+   vedisMemObjToString(&(*pKey));
+                       ^
+vedis.c:17331:30: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+   rc = HashmapLookupBlobKey(&(*pMap), SyBlobData(&pKey->sBlob), SyBlobLength(&pKey->sBlob), &pNode);
+                             ^
+vedis.c:17341:27: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapLookupIntKey(&(*pMap), pKey->x.iVal, &pNode);
+                          ^
+vedis.c:17398:24: style: Redundant pointer operation on 'pKey' - it's already a pointer. [redundantPointerOp]
+   vedisMemObjToString(&(*pKey));
+                       ^
+vedis.c:17407:40: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  if( SXRET_OK == HashmapLookupBlobKey(&(*pMap), SyBlobData(&pKey->sBlob),
+                                       ^
+vedis.c:17419:29: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  rc = HashmapInsertBlobKey(&(*pMap),SyBlobData(&pKey->sBlob),SyBlobLength(&pKey->sBlob),&(*pVal));
+                            ^
+vedis.c:17419:90: style: Redundant pointer operation on 'pVal' - it's already a pointer. [redundantPointerOp]
+  rc = HashmapInsertBlobKey(&(*pMap),SyBlobData(&pKey->sBlob),SyBlobLength(&pKey->sBlob),&(*pVal));
+                                                                                         ^
+vedis.c:17428:39: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  if( SXRET_OK == HashmapLookupIntKey(&(*pMap), pKey->x.iVal, &pNode) ){
+                                      ^
+vedis.c:17439:28: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  rc = HashmapInsertIntKey(&(*pMap), pKey->x.iVal, &(*pVal));
+                           ^
+vedis.c:17439:52: style: Redundant pointer operation on 'pVal' - it's already a pointer. [redundantPointerOp]
+  rc = HashmapInsertIntKey(&(*pMap), pKey->x.iVal, &(*pVal));
+                                                   ^
+vedis.c:17445:44: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+    while( SXRET_OK == HashmapLookupIntKey(&(*pMap), pMap->iNextIdx, 0) ){
+                                           ^
+vedis.c:17452:28: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+  rc = HashmapInsertIntKey(&(*pMap),pMap->iNextIdx,&(*pVal));
+                           ^
+vedis.c:17452:52: style: Redundant pointer operation on 'pVal' - it's already a pointer. [redundantPointerOp]
+  rc = HashmapInsertIntKey(&(*pMap),pMap->iNextIdx,&(*pVal));
+                                                   ^
+vedis.c:17479:17: style: Redundant pointer operation on 'pStore' - it's already a pointer. [redundantPointerOp]
+ pMap->pStore = &(*pStore);
+                ^
+vedis.c:17563:21: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapLookup(&(*pMap), &(*pKey),&pNode);
+                    ^
+vedis.c:17563:31: style: Redundant pointer operation on 'pKey' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapLookup(&(*pMap), &(*pKey),&pNode);
+                              ^
+vedis.c:17586:21: style: Redundant pointer operation on 'pMap' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapInsert(&(*pMap), &(*pKey), &(*pVal));
+                    ^
+vedis.c:17586:31: style: Redundant pointer operation on 'pKey' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapInsert(&(*pMap), &(*pKey), &(*pVal));
+                              ^
+vedis.c:17586:41: style: Redundant pointer operation on 'pVal' - it's already a pointer. [redundantPointerOp]
+ rc = HashmapInsert(&(*pMap), &(*pKey), &(*pVal));
+                                        ^
+vedis.c:21748:23: style: Redundant pointer operation on 'pStore' - it's already a pointer. [redundantPointerOp]
+  rc = vedisConfigure(&(*pStore),nConfigOp, ap);
+                      ^
+vedis.c:22169:96: style: Redundant pointer operation on 'pValue' - it's already a pointer. [redundantPointerOp]
+ rc = vedisHashmapInsert((vedis_hashmap *)pArray->x.pOther, 0 /* Assign an automatic index */, &(*pValue));
+                                                                                               ^
+vedis.c:21373:40: style:inconclusive: Function 'vedisGenError' argument 1 names different: declaration 'pDb' definition 'pStore'. [funcArgNamesDifferent]
+VEDIS_PRIVATE int vedisGenError(vedis *pStore,const char *zErr)
+                                       ^
+vedis.c:1842:40: note: Function 'vedisGenError' argument 1 names different: declaration 'pDb' definition 'pStore'.
+VEDIS_PRIVATE int vedisGenError(vedis *pDb,const char *zErr);
+                                       ^
+vedis.c:21373:40: note: Function 'vedisGenError' argument 1 names different: declaration 'pDb' definition 'pStore'.
+VEDIS_PRIVATE int vedisGenError(vedis *pStore,const char *zErr)
+                                       ^
+vedis.c:21385:46: style:inconclusive: Function 'vedisGenErrorFormat' argument 1 names different: declaration 'pDb' definition 'pStore'. [funcArgNamesDifferent]
+VEDIS_PRIVATE int vedisGenErrorFormat(vedis *pStore,const char *zFmt,...)
+                                             ^
+vedis.c:1843:46: note: Function 'vedisGenErrorFormat' argument 1 names different: declaration 'pDb' definition 'pStore'.
+VEDIS_PRIVATE int vedisGenErrorFormat(vedis *pDb,const char *zFmt,...);
+                                             ^
+vedis.c:21385:46: note: Function 'vedisGenErrorFormat' argument 1 names different: declaration 'pDb' definition 'pStore'.
+VEDIS_PRIVATE int vedisGenErrorFormat(vedis *pStore,const char *zFmt,...)
+                                             ^
+vedis.c:21399:43: style:inconclusive: Function 'vedisGenOutofMem' argument 1 names different: declaration 'pDb' definition 'pStore'. [funcArgNamesDifferent]
+VEDIS_PRIVATE int vedisGenOutofMem(vedis *pStore)
+                                          ^
+vedis.c:1844:43: note: Function 'vedisGenOutofMem' argument 1 names different: declaration 'pDb' definition 'pStore'.
+VEDIS_PRIVATE int vedisGenOutofMem(vedis *pDb);
+                                          ^
+vedis.c:21399:43: note: Function 'vedisGenOutofMem' argument 1 names different: declaration 'pDb' definition 'pStore'.
+VEDIS_PRIVATE int vedisGenOutofMem(vedis *pStore)
+                                          ^
+vedis.c:21732:36: style:inconclusive: Function 'vedis_config' argument 2 names different: declaration 'iOp' definition 'nConfigOp'. [funcArgNamesDifferent]
+int vedis_config(vedis *pStore,int nConfigOp,...)
+                                   ^
+vedis.c:817:52: note: Function 'vedis_config' argument 2 names different: declaration 'iOp' definition 'nConfigOp'.
+VEDIS_APIEXPORT int vedis_config(vedis *pStore,int iOp,...);
+                                                   ^
+vedis.c:21732:36: note: Function 'vedis_config' argument 2 names different: declaration 'iOp' definition 'nConfigOp'.
+int vedis_config(vedis *pStore,int nConfigOp,...)
+                                   ^
+vedis.c:19124:24: style: Local variable 'pEntry' shadows outer variable [shadowVariable]
+    vedis_table_entry *pEntry;
+                       ^
+vedis.c:19087:21: note: Shadowed declaration
+ vedis_table_entry *pEntry;
+                    ^
+vedis.c:19124:24: note: Shadow variable
+    vedis_table_entry *pEntry;
+                       ^
+vedis.c:19196:24: style: Local variable 'pEntry' shadows outer variable [shadowVariable]
+    vedis_table_entry *pEntry;
+                       ^
+vedis.c:19159:21: note: Shadowed declaration
+ vedis_table_entry *pEntry;
+                    ^
+vedis.c:19196:24: note: Shadow variable
+    vedis_table_entry *pEntry;
+                       ^
+vedis.c:19808:8: style: Local variable 'nByte' shadows outer argument [shadowArgument]
+   int nByte = (int)(zIn-zPtr);
+       ^
+vedis.c:19772:6: note: Shadowed declaration
+ int nByte,  /* Input length */
+     ^
+vedis.c:19808:8: note: Shadow variable
+   int nByte = (int)(zIn-zPtr);
+       ^
+vedis.c:11103:47: error: Signed integer overflow for expression '0xDEAD<<16'. [integerOverflow]
+  pBucket->nBucket = (sxu32)(SXMEM_POOL_MAGIC << 16) | SXU16_HIGH;
+                                              ^
+vedis.c:11126:39: error: Signed integer overflow for expression '0xDEAD<<16'. [integerOverflow]
+ pBucket->nBucket = (SXMEM_POOL_MAGIC << 16) | nBucket;
+                                      ^
+vedis.c:1300:26: style: struct member 'SyHash::pCurrent' is never used. [unusedStructMember]
+ SyHashEntry_Pr *pList, *pCurrent;  /* Linked list of hash entries user for linear traversal */
+                         ^
+vedis.c:1303:8: style: struct member 'SyHash::nBucketSize' is never used. [unusedStructMember]
+ sxu32 nBucketSize;                /* Current bucket size */
+       ^
+vedis.c:1334:7: style: struct member 'sytime::tm_usec' is never used. [unusedStructMember]
+ long tm_usec; /* microseconds */
+      ^
+vedis.c:1482:8: style: struct member 'MD5Context::buf' is never used. [unusedStructMember]
+ sxu32 buf[4];
+       ^
+vedis.c:1483:8: style: struct member 'MD5Context::bits' is never used. [unusedStructMember]
+ sxu32 bits[2];
+       ^
+vedis.c:1484:16: style: struct member 'MD5Context::in' is never used. [unusedStructMember]
+ unsigned char in[64];
+               ^
+vedis.c:1489:16: style: struct member 'SHA1Context::state' is never used. [unusedStructMember]
+  unsigned int state[5];
+               ^
+vedis.c:1490:16: style: struct member 'SHA1Context::count' is never used. [unusedStructMember]
+  unsigned int count[2];
+               ^
+vedis.c:1491:17: style: struct member 'SHA1Context::buffer' is never used. [unusedStructMember]
+  unsigned char buffer[64];
+                ^
+vedis.c:2860:7: style: Variable 'zBuf' is assigned a value that is never used. [unreadVariable]
+ zBuf += 4;
+      ^
+vedis.c:3142:5: style: Variable 'pUserData' is assigned a value that is never used. [unreadVariable]
+    SXUNUSED(pUserData); /* Prevent compiler warning */
+    ^
+vedis.c:3143:5: style: Variable 'pCtxData' is assigned a value that is never used. [unreadVariable]
+    SXUNUSED(pCtxData);
+    ^
+vedis.c:4700:7: style: Variable 'zRaw' is assigned a value that is never used. [unreadVariable]
+ zRaw += nLen;
+      ^
+vedis.c:5502:9: style: Variable 'rc' is assigned a value that is never used. [unreadVariable]
+ int rc = VEDIS_OK;
+        ^
+vedis.c:8394:3: style: Variable 'fullSync' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(fullSync);
+  ^
+vedis.c:8395:3: style: Variable 'dataOnly' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(dataOnly);
+  ^
+vedis.c:8537:3: style: Variable 'NotUsed' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8582:3: style: Variable 'isDelete' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(isDelete);
+  ^
+vedis.c:8583:3: style: Variable 'noLock' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(noLock);
+  ^
+vedis.c:8584:3: style: Variable 'pVfs' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(pVfs);
+  ^
+vedis.c:8729:6: style: Variable 'zPath' is assigned a value that is never used. [unreadVariable]
+     SXUNUSED(zPath);
+     ^
+vedis.c:8875:3: style: Variable 'NotUsed' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8913:3: style: Variable 'NotUsed' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8925:2: style: Variable 'pVfs' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(pVfs);
+ ^
+vedis.c:8991:4: style: Variable 'pVfs' is assigned a value that is never used. [unreadVariable]
+   SXUNUSED(pVfs);
+   ^
+vedis.c:10212:3: style: Variable 'iPageSize' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(iPageSize); /* cc warning */
+  ^
+vedis.c:11926:12: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+ sxreal *p = 0;
+           ^
+vedis.c:12215:2: style: Variable 'pLex' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(pLex); /* Prevent compiler warning */
+ ^
+vedis.c:12914:2: style: Variable 'pUnused' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(pUnused);
+ ^
+vedis.c:14179:7: style: Variable 'zRaw' is assigned a value that is never used. [unreadVariable]
+ zRaw += 8;
+      ^
+vedis.c:15081:5: style: Variable 'rc' is assigned a value that is never used. [unreadVariable]
+ rc = VEDIS_OK;
+    ^
+vedis.c:16684:3: style: Variable 'iPos' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(iPos);
+  ^
+vedis.c:17606:5: style: Variable 'rc' is assigned a value that is never used. [unreadVariable]
+ rc = SXRET_OK;
+    ^
+vedis.c:18668:5: style: Variable 'rc' is assigned a value that is never used. [unreadVariable]
+ rc = VEDIS_OK;
+    ^
+vedis.c:18741:3: style: Variable 'argc' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(argc); /* cc warning */
+  ^
+vedis.c:18742:3: style: Variable 'argv' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(argv);
+  ^
+vedis.c:19443:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:19444:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_mon' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_mday' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_year' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_yday' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_wday' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_isdst' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_gmtoff' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20219:2: style: Variable 'sTm.tm_zone' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20221:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20222:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_hour' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_min' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_sec' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_yday' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_wday' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_isdst' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_gmtoff' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20245:2: style: Variable 'sTm.tm_zone' is assigned a value that is never used. [unreadVariable]
+ STRUCT_TM_TO_SYTM(pTm, &sTm);
+ ^
+vedis.c:20247:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20248:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20304:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20305:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20316:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /* cc warning */
+ ^
+vedis.c:20317:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20345:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /* cc wanring */
+ ^
+vedis.c:20346:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20369:3: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(nArg); /* cc warning */
+  ^
+vedis.c:20370:3: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(apArg);
+  ^
+vedis.c:20398:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /*cc warning */
+ ^
+vedis.c:20399:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20415:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /*cc warning */
+ ^
+vedis.c:20416:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20432:2: style: Variable 'nArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(nArg); /*cc warning */
+ ^
+vedis.c:20433:2: style: Variable 'apArg' is assigned a value that is never used. [unreadVariable]
+ SXUNUSED(apArg);
+ ^
+vedis.c:20597:3: style: Variable 'iSize' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(iSize); /* cc warning */
+  ^
+vedis.c:22451:5: style: Variable 'rc' is assigned a value that is never used. [unreadVariable]
+ rc = SyBlobFormatAp(&pVal->sBlob, zFormat, ap);
+    ^
+vedis.c:7454:0: information: Skipping configuration 'ENOTSUP' since the value of 'ENOTSUP' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  case ENOTSUP:
+^
+vedis.c:7682:0: information: Skipping configuration 'EOVERFLOW' since the value of 'EOVERFLOW' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ if( pFile->lastErrno==EOVERFLOW ) return VEDIS_NOTIMPLEMENTED;
+^
+vedis.c:13040:8: style: The scope of the variable 't' can be reduced. [variableScope]
+ sxu32 t;
+       ^
+vedis.c:5679:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return FALSE;
+^
+vedis.c:9454:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  return n > 0 ? TRUE : FALSE;
+^
+vedis.c:9493:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  return FALSE;
+^
+vedis.c:9500:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+   return FALSE;
+^
+vedis.c:9504:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  return rc == SXRET_OK ? TRUE : FALSE;
+^
+vedis.c:9507:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return FALSE;
+^
+vedis.c:11306:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ bInheritMutex = pParent->pMutexMethods ? TRUE : FALSE;
+^
+vedis.c:11628:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  *pReal = FALSE;
+^
+vedis.c:11684:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ int isNeg = FALSE;
+^
+vedis.c:11701:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  isNeg = (zSrc[0] == '-') ? TRUE :FALSE;
+^
+vedis.c:11759:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ int isNeg = FALSE;
+^
+vedis.c:11774:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  isNeg = (zSrc[0] == '-') ? TRUE :FALSE;
+^
+vedis.c:11809:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ int isNeg = FALSE;
+^
+vedis.c:11825:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  isNeg = (zSrc[0] == '-') ? TRUE :FALSE;
+^
+vedis.c:11857:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ int isNeg = FALSE;
+^
+vedis.c:11873:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  isNeg = (zSrc[0] == '-') ? TRUE :FALSE;
+^
+vedis.c:11922:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ sxu8 neg = FALSE;
+^
+vedis.c:11940:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  neg =  zSrc[0] == '-' ? TRUE : FALSE ;
+^
+vedis.c:11973:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ neg = FALSE;
+^
+vedis.c:11977:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+   neg = zSrc[0] == '-' ? TRUE : FALSE ;
+^
+vedis.c:17363:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  return FALSE;
+^
+vedis.c:17378:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return FALSE;
+^
+vedis.c:21145:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+   rc = vedisPagerRollback(pStore->pPager,FALSE);
+^
+vedis.c:21149:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  rc = vedisPagerRollback(pStore->pPager,FALSE);
+^
+vedis.c:22480:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return (pVal->iFlags & MEMOBJ_INT) ? TRUE : FALSE;
+^
+vedis.c:22488:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return (pVal->iFlags & MEMOBJ_REAL) ? TRUE : FALSE;
+^
+vedis.c:22496:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return (pVal->iFlags & MEMOBJ_BOOL) ? TRUE : FALSE;
+^
+vedis.c:22504:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return (pVal->iFlags & MEMOBJ_STRING) ? TRUE : FALSE;
+^
+vedis.c:22512:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return (pVal->iFlags & MEMOBJ_NULL) ? TRUE : FALSE;
+^
+vedis.c:22530:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return (pVal->iFlags & MEMOBJ_SCALAR) ? TRUE : FALSE;
+^
+vedis.c:22538:0: information: Skipping configuration 'FALSE;SYMISC_STD_TYPES' since the value of 'FALSE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+ return (pVal->iFlags & MEMOBJ_HASHMAP) ? TRUE : FALSE;
+^
+vedis.c:8648:0: information: Skipping configuration 'FD_CLOEXEC' since the value of 'FD_CLOEXEC' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+      fcntl(fd, F_SETFD, fcntl(fd, F_GETFD, 0) | FD_CLOEXEC);
+^
+vedis.c:8840:0: information: Skipping configuration 'FD_CLOEXEC' since the value of 'FD_CLOEXEC' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+  fcntl(fd, F_SETFD, fcntl(fd, F_GETFD, 0) | FD_CLOEXEC);
+^
+vedis.c:8403:0: information: Skipping configuration 'F_FULLFSYNC' since the value of 'F_FULLFSYNC' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    rc = fcntl(fd, F_FULLFSYNC, 0);
+^
+vedis.c:8909:3: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:8909:3: style: Variable 'NotUsed' is assigned a value that is never used. [unreadVariable]
+  SXUNUSED(NotUsed);
+  ^
+vedis.c:10795:14: warning: The address of local variable 'skey' might be accessed at non-zero index. [objectIndex]
+ zEnd = &zSrc[nSize];
+             ^
+vedis.c:22147:53: note: Address of variable taken here.
+ vedisMemObjInitFromInt(vedisHashmapGetEngine(pMap),&skey,(vedis_int64)index);
+                                                    ^
+vedis.c:22147:53: note: Calling function 'vedisMemObjInitFromInt', 2nd argument '&skey' value is lifetime=skey
+ vedisMemObjInitFromInt(vedisHashmapGetEngine(pMap),&skey,(vedis_int64)index);
+                                                    ^
+vedis.c:9646:9: note: Calling function 'SyZero', 1st argument 'pObj' value is lifetime=skey
+ SyZero(pObj, sizeof(vedis_value));
+        ^
+vedis.c:10795:14: note: The address of local variable 'skey' might be accessed at non-zero index.
+ zEnd = &zSrc[nSize];
+             ^
+vedis_shell.c:122:19: style: The scope of the variable 'zPtr' can be reduced. [variableScope]
+ char zBuf[4096],*zPtr; /* Read buffer */
+                  ^
+vedis.c:17586:34: error: Null pointer dereference: pKey [ctunullpointer]
+ rc = HashmapInsert(&(*pMap), &(*pKey), &(*pVal));
+                                 ^
+vedis.c:22169:25: note: Calling function vedisHashmapInsert, 2nd argument is null
+ rc = vedisHashmapInsert((vedis_hashmap *)pArray->x.pOther, 0 /* Assign an automatic index */, &(*pValue));
+                        ^
+vedis.c:17586:34: note: Dereferencing argument pKey that is null
+ rc = HashmapInsert(&(*pMap), &(*pKey), &(*pVal));
+                                 ^
+vedis.c:22191:0: style: The function 'vedis_array_count' is never used. [unusedFunction]
+
+^
+vedis.c:22135:0: style: The function 'vedis_array_fetch' is never used. [unusedFunction]
+
+^
+vedis.c:22122:0: style: The function 'vedis_array_reset' is never used. [unusedFunction]
+
+^
+vedis.c:23032:0: style: The function 'vedis_begin' is never used. [unusedFunction]
+
+^
+vedis.c:22981:0: style: The function 'vedis_context_kv_append_fmt' is never used. [unusedFunction]
+
+^
+vedis.c:22961:0: style: The function 'vedis_context_kv_store_fmt' is never used. [unusedFunction]
+
+^
+vedis.c:22029:0: style: The function 'vedis_context_peek_aux_data' is never used. [unusedFunction]
+
+^
+vedis.c:22039:0: style: The function 'vedis_context_pop_aux_data' is never used. [unusedFunction]
+
+^
+vedis.c:22017:0: style: The function 'vedis_context_push_aux_data' is never used. [unusedFunction]
+
+^
+vedis.c:21987:0: style: The function 'vedis_context_random_num' is never used. [unusedFunction]
+
+^
+vedis.c:21997:0: style: The function 'vedis_context_random_string' is never used. [unusedFunction]
+
+^
+vedis.c:21960:0: style: The function 'vedis_context_throw_error_format' is never used. [unusedFunction]
+
+^
+vedis.c:22660:0: style: The function 'vedis_kv_append' is never used. [unusedFunction]
+
+^
+vedis.c:22685:0: style: The function 'vedis_kv_append_fmt' is never used. [unusedFunction]
+
+^
+vedis.c:22878:0: style: The function 'vedis_kv_config' is never used. [unusedFunction]
+
+^
+vedis.c:22916:0: style: The function 'vedis_kv_delete' is never used. [unusedFunction]
+
+^
+vedis.c:22762:0: style: The function 'vedis_kv_fetch' is never used. [unusedFunction]
+
+^
+vedis.c:21276:0: style: The function 'vedis_lib_copyright' is never used. [unusedFunction]
+
+^
+vedis.c:21267:0: style: The function 'vedis_lib_ident' is never used. [unusedFunction]
+
+^
+vedis.c:21204:0: style: The function 'vedis_lib_init' is never used. [unusedFunction]
+
+^
+vedis.c:21227:0: style: The function 'vedis_lib_is_threadsafe' is never used. [unusedFunction]
+
+^
+vedis.c:21258:0: style: The function 'vedis_lib_signature' is never used. [unusedFunction]
+
+^
+vedis.c:21249:0: style: The function 'vedis_lib_version' is never used. [unusedFunction]
+
+^
+vedis.c:22227:0: style: The function 'vedis_result_double' is never used. [unusedFunction]
+
+^
+vedis.c:23139:0: style: The function 'vedis_util_random_num' is never used. [unusedFunction]
+
+^
+vedis.c:22486:0: style: The function 'vedis_value_is_float' is never used. [unusedFunction]
+
+^
+vedis.c:22478:0: style: The function 'vedis_value_is_int' is never used. [unusedFunction]
+
+^
+vedis.c:22528:0: style: The function 'vedis_value_is_scalar' is never used. [unusedFunction]
+
+^
+vedis.c:22469:0: style: The function 'vedis_value_release' is never used. [unusedFunction]
+
+^
+vedis.c:22441:0: style: The function 'vedis_value_string_format' is never used. [unusedFunction]
+
+^
+vedis.c:22327:0: style: The function 'vedis_value_to_double' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
